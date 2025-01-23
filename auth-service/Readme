@@ -1,0 +1,10 @@
+Below steps needs to perfrom
+
+lifecare-connect\auth-service
+
+yarn install
+npx sequelize-cli db:migrate
+npx sequelize-cli db:seed:all
+
+npx sequelize-cli db:seed:undo:all
+npx sequelize-cli db:migrate:undo:all
