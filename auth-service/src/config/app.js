@@ -56,7 +56,7 @@ if (validationError) {
  */
 const config = {
     allowedEnvironments: ALLOWED_ENVIRONMENTS,
-    apiVersion: '/api',
+    apiVersion: '/api/v1',
     db: {
       database: get(envVars, 'DB_NAME'),
       dialect: 'postgres',
